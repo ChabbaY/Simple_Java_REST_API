@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
+
+group 'com.chabbay'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javax.servlet:javax.servlet-api:3.1.0'
+    implementation 'org.json:json:20220924'
+    implementation 'org.slf4j:slf4j-simple:1.7.21'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+gretty {
+    httpPort = 8080
+    contextPath = '/api'
+}
