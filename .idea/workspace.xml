@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38ed348d-eb8d-4969-97d6-2ee3f15fb38a" name="Changes" comment="simple api with get, post, put, delete that can store person entities">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chabbay/store/DataBaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chabbay/store/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chabbay/store/DataStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +87,17 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "ruby.rails.projectView.checked": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,15 +106,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Simple_Java_REST_API [appRun]">
+    <configuration name="APIStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chabbay.APIStarter" />
+      <module name="Simple_Java_REST_API.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chabbay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.APIStarter" />
       <item itemvalue="Gradle.Simple_Java_REST_API [clean]" />
       <item itemvalue="Gradle.Simple_Java_REST_API [appRun]" />
       <item itemvalue="Gradle.Simple_Java_REST_API [build]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Simple_Java_REST_API [build]" />
-        <item itemvalue="Gradle.Simple_Java_REST_API [appRun]" />
+        <item itemvalue="Application.APIStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670525218139</updated>
       <workItem from="1670525219297" duration="10898000" />
+      <workItem from="1670760822707" duration="6604000" />
+      <workItem from="1670771313351" duration="5535000" />
     </task>
     <task id="LOCAL-00001" summary="simple api with get, post, put, delete that can store person entities">
       <created>1670535759628</created>

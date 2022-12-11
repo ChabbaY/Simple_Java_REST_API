@@ -25,6 +25,10 @@ public class DataStore {
      * private constructor so people know to use the getInstance() function instead
      */
     private DataStore() {
+        //initialize DB
+        DataBaseController controller = DataBaseController.getInstance();
+        controller.init();
+        controller.test();
         //initial data
         personMap.put("Ada", new Person("Ada", "Ada Lovelace was the first programmer.", 1815));
     }
