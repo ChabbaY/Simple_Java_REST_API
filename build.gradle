@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'war'
-apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
+apply from: 'https://raw.githubusercontent.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
 
 group 'com.chabbay'
 version '1.0-SNAPSHOT'
